@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D719D91B2615C249000E26BE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D719D91A2615C249000E26BE /* CircleImage.swift */; };
+		D719D91F26160B2A000E26BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D719D91E26160B2A000E26BE /* MapView.swift */; };
 		D73D944926140DB800A8B343 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D944826140DB800A8B343 /* LandmarksApp.swift */; };
 		D73D944B26140DB800A8B343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D944A26140DB800A8B343 /* ContentView.swift */; };
 		D73D944D26140DBD00A8B343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D944C26140DBD00A8B343 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D719D91A2615C249000E26BE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D719D91E26160B2A000E26BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D73D944526140DB800A8B343 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D944826140DB800A8B343 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		D73D944A26140DB800A8B343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D73D944826140DB800A8B343 /* LandmarksApp.swift */,
+				D719D91A2615C249000E26BE /* CircleImage.swift */,
+				D719D91E26160B2A000E26BE /* MapView.swift */,
 				D73D944A26140DB800A8B343 /* ContentView.swift */,
 				D73D944C26140DBD00A8B343 /* Assets.xcassets */,
 				D73D945126140DBD00A8B343 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D719D91F26160B2A000E26BE /* MapView.swift in Sources */,
 				D73D944B26140DB800A8B343 /* ContentView.swift in Sources */,
 				D73D944926140DB800A8B343 /* LandmarksApp.swift in Sources */,
+				D719D91B2615C249000E26BE /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
