@@ -39,7 +39,6 @@ struct ProfileHost: View {
                         modelData.profile = draftProfile
                     }
             }
-
         }
         .padding()
     }
